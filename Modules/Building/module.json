@@ -1,0 +1,11 @@
+{
+    "name": "Building",
+    "alias": "building",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Building\\Providers\\BuildingServiceProvider"
+    ],
+    "files": []
+}
