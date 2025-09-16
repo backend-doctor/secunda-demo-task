@@ -30,7 +30,6 @@ cp .env.example .env
 
 # Генерация ключа приложения
 docker compose exec -it app php artisan key:generate
-exit
 ```
 
 ### 3. Запуск проекта
@@ -44,7 +43,6 @@ docker compose up -d --remove-orphans --no-recreate
 ### 4. Выполнение миграций
 ```bash
 docker compose exec -it app php artisan migrate
-exit
 ```
 
 ## Доступные команды
